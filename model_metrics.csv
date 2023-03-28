@@ -1,0 +1,6 @@
+,,,
+,parameters,f1_macro training scores,f1_macro scores
+Neural Network,"{'epochs': 10, 'dropout': 0.5, 'batch_size': 32, 'glove_embedding': False, 'data_augmentation': None, 'optimizer': 'Adam', 'learning_rate': 0.001, 'loss': 'categorical_crossentropy'}",0.9,0.55
+Neural Network (upsampled),"{'epochs': 10, 'dropout': 0.5, 'batch_size': 32, 'glove_embedding': False, 'data_augmentation': 'upsampled', 'optimizer': 'Adam', 'learning_rate': 0.001, 'loss': 'categorical_crossentropy'}",0.99,0.54
+LSTM,"{'epochs': 10, 'dropout': 0.3, 'batch_size': 32, 'glove_embedding': True, 'data_augmentation': 'upsampled', 'optimizer': 'Adam', 'learning_rate': 0.001, 'loss': 'categorical_crossentropy'}",0.58,0.48
+LSTM (upsampled),"{'epochs': 10, 'dropout': 0.3, 'batch_size': 32, 'glove_embedding': True, 'data_augmentation': None, 'optimizer': 'Adam', 'learning_rate': 0.001, 'loss': 'categorical_crossentropy'}",0.98,0.5
